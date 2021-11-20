@@ -1,0 +1,47 @@
+.container {
+  background-color: #63CD92;
+  width: 50%;
+  height: 150px;
+  padding: 10px;
+  align-content: center;
+}
+
+.col1 {
+  width: 28%;
+  height: 35%;
+  background-color: #8ADEAF;
+  padding: 10px;
+  float: left;
+  display: inline;
+}
+
+.col2 {
+  width: 28%;
+  height: 35%;
+  background-color: #9AF9C4;
+  padding: 10px;
+  float: left;
+}
+
+.col3 {
+  width: 28%;
+  height: 35%;
+  background-color: #8ADEAF;
+  padding: 10px;
+  float: left;
+}
+
+#temperature {
+  width: 90%;
+  float: center;
+}
+
+#units {
+  width: 90%;
+  float: center;
+}
+
+.results {
+  padding: 20px;
+  display: inline;
+}
