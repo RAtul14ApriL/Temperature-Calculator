@@ -6,21 +6,21 @@ convertBtn.addEventListener('click', convertTemp);
 function convertTemp() {
 
   function convertKelvin() {
-    document.getElementById('kelvinResult').innerHTML = parseInt(document.getElementById('temperature').value) + " degree Kelvin";
-    document.getElementById('celsiusResult').innerHTML = (parseInt(document.getElementById('temperature').value) - 273) + " degree Celsius";
-    document.getElementById('fahrenheitResult').innerHTML = Math.floor(((parseInt(document.getElementById('temperature').value) - 273) * (9 / 5) + 32)) + " degree Fahrenheit";
+    document.getElementById('kelvinResult').innerHTML = parseInt(document.getElementById('temperature').value) + "\n" + " degree Kelvin";
+    document.getElementById('celsiusResult').innerHTML = (parseInt(document.getElementById('temperature').value) - 273) + "\n" + " degree Celsius";
+    document.getElementById('fahrenheitResult').innerHTML = Math.floor(((parseInt(document.getElementById('temperature').value) - 273) * (9 / 5) + 32)) + "\n" + " degree Fahrenheit";
   }
 
   function convertCelsius() {
-    document.getElementById('celsiusResult').innerHTML = parseInt(document.getElementById('temperature').value) + " degree Celsius";
-    document.getElementById('kelvinResult').innerHTML = (parseInt(document.getElementById('temperature').value) + 273) + " degree Kelvin";
-    document.getElementById('fahrenheitResult').innerHTML = Math.floor((parseInt(document.getElementById('temperature').value) * (9 / 5)) + 32) + " degree Fahrenheit";
+    document.getElementById('celsiusResult').innerHTML = parseInt(document.getElementById('temperature').value) + "\n" + " degree Celsius";
+    document.getElementById('kelvinResult').innerHTML = (parseInt(document.getElementById('temperature').value) + 273) + "\n" + " degree Kelvin";
+    document.getElementById('fahrenheitResult').innerHTML = Math.floor((parseInt(document.getElementById('temperature').value) * (9 / 5)) + 32) + "\n" + " degree Fahrenheit";
   }
 
   function convertFahrenheit() {
-    document.getElementById('fahrenheitResult').innerHTML = parseInt(document.getElementById('temperature').value) + " degree fahrenheit";
-    document.getElementById('kelvinResult').innerHTML = Math.floor((parseInt(document.getElementById('temperature').value) - 32) * (5 / 9) + 273) + " degree Kelvin";
-    document.getElementById('celsiusResult').innerHTML = Math.floor((parseInt(document.getElementById('temperature').value) - 32) * (5 / 9)) + " degree Celsius";
+    document.getElementById('fahrenheitResult').innerHTML = parseInt(document.getElementById('temperature').value) + "\n" + " degree fahrenheit";
+    document.getElementById('kelvinResult').innerHTML = Math.floor((parseInt(document.getElementById('temperature').value) - 32) * (5 / 9) + 273) + "\n" + " degree Kelvin";
+    document.getElementById('celsiusResult').innerHTML = Math.floor((parseInt(document.getElementById('temperature').value) - 32) * (5 / 9)) + "\n" + " degree Celsius";
   }
   if (document.getElementById('units').value == 'kelvin') {
     convertKelvin();

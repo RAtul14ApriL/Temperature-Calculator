@@ -1,13 +1,21 @@
-.container {
-  background-color: #63CD92;
-  width: 50%;
+body {
+  background-image: url(https://wallpaper-house.com/data/out/6/wallpaper2you_100689.jpg);
+}
+
+.center {
+  background-color: #f8f8f891;
   height: 150px;
-  padding: 10px;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
   align-content: center;
+  padding: 10px;
+  box-shadow: #000000;
 }
 
 .col1 {
-  width: 28%;
+  width: 30%;
   height: 35%;
   background-color: #8ADEAF;
   padding: 10px;
@@ -16,7 +24,7 @@
 }
 
 .col2 {
-  width: 28%;
+  width: 30%;
   height: 35%;
   background-color: #9AF9C4;
   padding: 10px;
@@ -24,7 +32,7 @@
 }
 
 .col3 {
-  width: 28%;
+  width: 30%;
   height: 35%;
   background-color: #8ADEAF;
   padding: 10px;
@@ -33,15 +41,44 @@
 
 #temperature {
   width: 90%;
-  float: center;
+  height: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #units {
   width: 90%;
   float: center;
+  height: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .results {
   padding: 20px;
   display: inline;
+}
+
+#convert, #reset{
+  height: 30px;
+  display: inline;
+  width: fit-content;
+}
+
+h2 {
+  color: #000000;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #8ADEAF;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h4 {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
